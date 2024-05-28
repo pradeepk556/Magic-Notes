@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: burlywood;
+}
+
+nav h1{
+    float: left;
+}
+nav{
+    display: flex;
+    margin: 10px 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    background-color: chocolate;
+    padding: 10px;
+}
+
+
+#search{
+    margin-left: 800px;
+    font-size: larger;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 2px;
+    border: none;
+}
+
+nav button{
+    font-size: larger;
+    border-radius: 5px;
+    padding: 2px;
+    border: none;
+}
+
+/* section css */
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    flex-direction: column;
+    margin: 20px;
+}
+
+section h1{
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: rgb(198, 109, 45);
+    text-shadow: 2px blanchedalmond;
+}
+
+section label{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+section input, textarea{
+    width: 60%;
+    font-size: 25px;
+    margin: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.buttons button, .deleteNote{
+    font-size: large;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    background-color: chocolate;
+    color: white;
+}
+
+.buttons button:hover{
+    box-shadow: 5px 5px 15px black;
+}
+
+.yourNotes{
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+}
+
+.list-card{
+    float: left;
+    width: 150px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    margin: 10px;
+}
+
+hr{
+    width: 90%;
+    margin-left: 5%;
+    height: 3px;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: chocolate;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.list-card h1, p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: none;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.yourNotes p{
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: coral;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body onload="showNotes()">
+    <nav class="navbar">
+        <div>
+            <h1>MAGIC NOTES</h1>
+            <!-- <div> -->
+            <input type="search" name="search" id="search" placeholder="search">
+            <button type="submit">search</button>
+            <!-- </div> -->
+        </div>
+    </nav>
+
+    <section class="main">
+        <h1>Welcome To Magic Notes</h1>
+        <label for="title">Add Title</label>
+        <input type="text" id="title" placeholder="Type Title Here...">
+        <label for="title">Add a Note</label>
+        <textarea name="note" id="note" cols="30" rows="5" placeholder="Type Note Here.."></textarea>
+        <div class="buttons">
+            <button onclick="addNote()">AddNote</button>
+            <button onclick="clearNotes()">ClearNotes</button>
+        </div>
+        <hr>
+        <h1>Your Notes</h1>
+        <hr>
+
+        <div id="yourNotes"></div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>
